@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Selector Practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="practice.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="practice.css">
+  </head>
+  <body>
+    <div class="container">
+      <p>1. When 'Submit' is clicked, add the contents of the textbox below in a h3 tag.</p>
+        <input type="text" class="textInput"> <button class="btn btn-info" id="submitBtn">Submit</button>
+
+      <p>2. When the checkbox is clicked, reveal the hidden message...</p>
+        <div class="chex"><input type="checkbox"></div>
+        <h2 class="hidden">You are a jQuery God!</h2>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <p>3. Add a new cat to the table</p>
+
+          <p>4. Make 'hangry' red and 'content' green</p>
+
+          <p>5. When clicked, only display cats weighing 10+ lbs <button class="btn btn-warning">Heavy Cats</button></p>
+
+          <p>6. When clicked, uppercase all cat names <button class="btn btn-success">YELL NAMES</button></p>
+
+          <p>7. Show and hide the table with this button <button class="btn btn-primary">Toggle Table</button></p>
+        </div>
+        <div class="col-xs-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Weight (lbs)</th>
+                <th>Hunger Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mittens</td>
+                <td>8</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Boots</td>
+                <td>9</td>
+                <td>Content</td>
+              </tr>
+              <tr>
+                <td>Fluffs</td>
+                <td>11</td>
+                <td>Hangry</td>
+              </tr>
+              <tr>
+                <td>Tiny</td>
+                <td>18</td>
+                <td>Hangry</td>
+              </tr>
+              <tr>
+                <td>Mr Whiskers</td>
+                <td>7</td>
+                <td>Content</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p>8. Turn this array into a list arranged alphabetically and append it to the page:</p>
+      <h4>["rope", "string", "cord", "twine"]</h4>
+
+      <p>9. Disable each of the below items</p>
+        <div id="disableUs">
+          <input type="text" placeholder="You can't type here"><br><br>
+          <label><input type="checkbox" value=""> You can't check this box</label><br><br>
+          <a href="https://google.com">No more Google</a>
+        </div>
+      <p>10. Select the third option from the dropdown, and append it to the page.</p>
+        <select class="dropdown">
+          <option value="Select an option below">Select an option below</option>
+          <option value="Wrong Choice">Wrong Choice</option>
+          <option value="Wrong Choice">Wrong Choice</option>
+          <option value="Wahoo!!!">Wahoo!!!</option>
+        </select>
+      <p>11. Alert the user how many items are in the list</p>
+        <ul id="alertList">
+          <li>Uno</li>
+          <li>Dos</li>
+          <li>Tres</li>
+        </ul>
+      <p>12. Create buttons that add and remove list items.</p>
+
+      <p>13. Create a counter that displays the length of the list.</p>
+    </div>
+  </body>
+</html>

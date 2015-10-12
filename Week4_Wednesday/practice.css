@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+}
+p {
+  margin-top: 15px;
+}
+.chex {
+  margin-left: 30px;
+}
+.hidden {
+  visibility: none;
+}
+.textInput, table, h4, #disableUs, .dropdown {
+  margin-left: 30px;
+}
+#alertList {
+  list-style: none;
+  font-size: 20px;
+}
